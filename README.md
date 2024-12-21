@@ -6,7 +6,7 @@ In my deep learning journey, I have explored various datasets and implemented de
 
 ### **Deep Learning Projects**
 
-#### 1. **CIFAR=1- Image Classification with Convolutional Neural Networks (CNNs)**
+#### 1. **CIFAR=10 Image Classification with Convolutional Neural Networks (CNNs)**
 - **Description**: Built and trained a CNN model for classifying images from the CIFAR-10 dataset. The project involved data augmentation, hyperparameter tuning, and visualizing model predictions.
 - **Dataset**: [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 - **Key Outcomes**: Improved classification accuracy through dropout and batch normalization techniques.
