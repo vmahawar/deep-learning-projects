@@ -10,31 +10,16 @@ In my deep learning journey, I have explored various datasets and implemented de
 - **Description**: Built and trained a CNN model for classifying images from the CIFAR-10 dataset. The project involved data augmentation, hyperparameter tuning, and visualizing model predictions.
 - **Dataset**: [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 - **Key Outcomes**: Improved classification accuracy through dropout and batch normalization techniques.
-- **Repository**: [CIFAR-10 Image Classification](https://github.com/vmahawar/cifar-10-image-classification)
+- **Repository**: [CIFAR-10 Image Classification](./image-classification-of-CIFAR-10-using-CNN/)
 
 ---
 
-#### 2. **Sentiment Analysis Using Recurrent Neural Networks (RNNs)**
-- **Description**: Performed sentiment analysis on the IMDB dataset using LSTM-based RNNs. The project focused on text preprocessing, sequence padding, and embedding layers.
-- **Dataset**: [IMDB Movie Reviews Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)
-- **Key Outcomes**: Achieved high accuracy in detecting positive or negative sentiments with effective text vectorization.
-- **Repository**: [IMDB Sentiment Analysis](https://github.com/vmahawar/imdb-sentiment-analysis)
+#### 2. **Reliance Stock Closing Price Prediction with LSTM**
+- **Description**: Developed an LSTM-based model for predicting Reliance stock closing prices using historical stock data. The project utilized 30-day and 120-day time windows to capture both short-term and long-term trends. Key steps included data preprocessing (normalization and sequence generation), model building with stacked LSTM layers, and performance evaluation using RMSE.
+- **Dataset**: [Reliance Industries stock data](https://github.com/vmahawar/data-science-datasets-collection/raw/main/reliance_stock.csv) ([6164 rows after cleaning](https://github.com/vmahawar/data-science-datasets-collection/raw/main/reliance_stock_cleaned.csv)).
+- **Key Outcomes**: Achieved reliable predictions for stock closing prices with low RMSE. The model demonstrated the effectiveness of LSTM in capturing temporal dependencies for financial time-series forecasting.
+- **Repository**: [Reliance Stock Prediction with LSTM](./LSTM-long-short-term-memory-of-reliance-stock/)
 
----
-
-#### 3. **Handwritten Digit Recognition with Neural Networks**
-- **Description**: Developed a neural network model to classify handwritten digits using the MNIST dataset. The project focused on using dense and convolutional layers for feature extraction.
-- **Dataset**: [MNIST Dataset](http://yann.lecun.com/exdb/mnist/)
-- **Key Outcomes**: Achieved over 98% accuracy using an optimized neural network architecture.
-- **Repository**: [MNIST Digit Recognition](https://github.com/vmahawar/mnist-digit-recognition)
-
----
-
-#### 4. **Time-Series Forecasting with LSTMs**
-- **Description**: Designed and trained an LSTM-based model for time-series forecasting using stock market data. The project included sequence generation, data normalization, and model evaluation.
-- **Dataset**: Custom Stock Market Dataset
-- **Key Outcomes**: Predicted future trends with reduced mean squared error by applying LSTM layers and dropout regularization.
-- **Repository**: [Stock Market Forecasting](https://github.com/vmahawar/stock-market-forecasting)
 
 ---
 
