@@ -1,6 +1,8 @@
-# Reliance Stock Price Prediction Using LSTM
+# Predicting Reliance Stock Closing Prices Using LSTM: A Visualization
 
 This project focuses on predicting the next day’s closing price of Reliance stock using a Long-Short Term Memory (LSTM) model. The model is trained on historical stock data with two different time windows (past 30 days and past 120 days) to explore the impact of input window size on predictive performance.
+
+![Reliance Stock Closing Prices Using LSTM](LSTM-reliance-stock.png)
 
 ---
 
@@ -64,8 +66,8 @@ This project focuses on predicting the next day’s closing price of Reliance st
 ## 📊 Results
 
 - **Test Loss (MSE)**:
-  - Time Window = 30 days: *Value TBD after training*.
-  - Time Window = 120 days: *Value TBD after training*.
+  - Time Window = 30 days: 
+  - Time Window = 120 days: 
 
 ---
 
