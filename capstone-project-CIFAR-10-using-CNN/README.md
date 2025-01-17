@@ -1,6 +1,8 @@
 
 # CAPSTONE PROJECT: CIFAR-10 Object Recognition Using CNN
 
+![CIFAR-10](./CIFAR-10.png)
+
 This project is a part of the **Continuing Education Program in Machine Learning and Deep Learning** at **IIT Delhi**, Batch-3 (July 2024 - Jan 2025). It focuses on developing a Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset into ten predefined classes. Additionally, a Streamlit-based web application has been integrated to allow testing with external images via URLs.
 
 ## **Project Overview**
